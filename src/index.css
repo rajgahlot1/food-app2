@@ -1,0 +1,24 @@
+*,body{
+  margin:0;
+  padding:0;
+}
+ul li{
+  text-align: center;
+  cursor:pointer;
+ 
+}
+.srchInput{
+  transition:all 2s ease;
+}
+@media (max-width: 576px) {
+  .absolute-sm {
+    position: absolute;
+  }
+  ul{
+    width:100px;
+    top:40px;
+  }
+  ul li{
+    border:1px solid rgb(107, 105, 105)
+  }
+}
