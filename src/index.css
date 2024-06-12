@@ -7,6 +7,11 @@ ul li{
   cursor:pointer;
  
 }
+.backImg{
+  background-image:linear-gradient(rgba(8, 0, 58, 0.74),rgba(8, 0, 58, 0.685)), url(./images/back.jpg);
+   background-size:cover;
+ background-position:center;
+height:90vh}
 .srchInput{
   transition:all 2s ease;
 }
